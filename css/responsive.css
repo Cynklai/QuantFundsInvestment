@@ -285,7 +285,7 @@
     .foot {
         display: grid;
         gap: 2em;
-        padding-right: 20em;
+        padding-right: 2em;
     }
 
     #divide {
