@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Create <span>Account</span></h1>
+      </div>
+
+       <div action="" id="form" class="form">
+        <div class="form-control success">
+          <label for="Firstname">First Name</label>
+          <input type="fname" id="fname" placeholder=" First Name" />
+          <span id="ero"></span>
+        </div>
+
+         <div class="form-control error">
+          <label for="lastname">Last Name</label>
+          <input type="lname" id="lname" placeholder=" Last Name" />
+          <span id="er"></span>
+        </div>
+
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input
+            type="middlename"
+            id="middlename"
+            placeholder=" Username"
+          />
+          <span id="error"></span>
+        </div>
+
+        <div class="form-controll">
+          <input type="radio" name="sex" valu="male" id="male" />
+          <label for="male" class="malee">Male</label>
+          <input type="radio" name="sex" value="female" id="female"  />
+          <label for="female">Female</label>
+        </div> <br>
+
+        <div class="form-control">
+          <label for="bdaymonth">Age</label>
+          <input type="number" id="age" />
+          <span id="err"></span>
+          <span id="eerr"></span>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="mail"
+            placeholder=" E-mail"
+          />
+          <span id="eer"></span>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="pmd"
+            placeholder=" Password"
+          /> 
+          <span id="ere"></span>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Re-type password</label>
+          <input
+            type="password"
+            id="pwdd"
+            placeholder=" Re-type password"
+          />
+          <span id="errorr"></span>
+        </div>
+        <button id="submit">submit</button>
+      </div>
+    </div>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>

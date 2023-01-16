@@ -1,0 +1,352 @@
+@media screen and (max-width: 900px) {
+    .logo img {
+        width: 160px;
+        height: 47px;
+        margin-top: 17px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #01020a;
+        right: 0;
+        left: 0;
+        padding: 16px;
+        top: 100%;
+        width: 100%;
+        height: 100vh;
+        opacity: 0.95;
+    }
+
+    nav {
+        z-index: 1;
+    }
+
+    .menu li {
+        margin-left: 12px;
+        padding: 5%;
+        text-align: left;
+        font-weight: bolder;
+    }
+
+    .menu li img {
+        display: block;
+        width: 170px;
+    }
+
+    .menu li span {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 35px;
+        color: #e5b061;
+        margin-top: 30px;
+        transform: rotateX('180deg');
+    }
+
+    .log {
+        display: none;
+    }
+
+    .bord {
+        border: 2px solid #e5b061;
+        width: 27vh;
+        height: 45px;
+        background: #e5b061;
+        float: left;
+    }
+
+    .menu .bord a {
+        color: #01020a;
+        font-weight: 400;
+        margin-top: 2px;
+    }
+
+    .container {
+        width: 100%;
+        position: relative;
+    }
+
+    .container h1 {
+        font-size: 47px;
+    }
+
+    .container p {
+        font-size: 18px;
+    }
+
+    #tradingview-widget-container {
+        position: absolute;
+        bottom: 0;
+        left: -0em;
+    }
+
+    .container-2 {
+        width: 100%;
+        height: 17vh; 
+    }
+
+    .container-2 button a {
+        font-size: 15px;
+    }
+
+    .container-3 {
+        width: 100%;
+        height: 120vh;
+        display: grid;
+    }
+
+    .container-3 h1 {
+        font-size: 40px;
+    }
+
+    .skill-bar p {
+        display: none;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .container-4 {
+        width: 100%;
+        height: 275vh;
+    }
+
+    .container-4 .four {
+        display: grid;
+    }
+
+    .padi {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .container-5 {
+        width: 100%;
+        height: 530vh;
+    }
+
+    .tet h1{
+        font-size: 35px;
+    }
+
+    .plans {
+        display: grid;
+        gap: 7em;
+    }
+
+    .strategies h1 {
+        font-size: 35px;
+        padding-top: 3em;
+    }
+
+    .smarter h1 {
+        font-size: 35px;
+    }
+
+    .crypto {
+        padding-top: 5em;
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        gap: 2em;
+    }
+
+    .dashboard {
+        display: grid;
+        gap: 2em;
+        padding: 0 1em;
+    }
+
+    .board button h1 {
+        font-size: 20px;
+    }
+
+    .dash {
+        display: grid;
+        gap: 2em;
+    }
+
+    .container-6 {
+        width: 100%;
+        height: 210vh;
+        display: grid;
+        gap: 5em;
+    }
+
+    .testimonial {
+        display: block;
+    }
+
+    .testimonial img {
+        display: none;
+    }
+
+    p {
+        padding: 0 0.2em;
+    }
+
+    .woods div {
+        margin-top: 23px;
+    }
+
+    .news h2 {
+        font-size: 17px;
+    }
+
+    .container-7 {
+        width: 100%;
+        height: 100em;
+        padding: 2em 2em;
+        display: grid;
+    }
+
+    .container-7 h2 {
+        font-size: 30px;
+    } 
+
+    .tradingview-widget-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top {
+       width: 100%;
+    }
+
+    .dia {
+        background-image: url(../img/whole-world-wallpaper-preview.jpg);
+        width: 20em;
+        height: 230px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .dia img {
+        width: 150px;
+        height: 190px;
+        border-radius: 10px;
+        border-top-left-radius: 10px;
+        padding-top: 30px;
+        margin-left: 5px;
+    }
+
+    .dia .ly {
+        background-color: #25292d;
+        width: 170px;
+        color: white;
+        height: 37px;
+        position: absolute;
+        padding-top: 3px;
+        left: 120px;
+        top: 150px;
+        padding-left: 27px;
+        font-size: 17px;
+        line-height: 29px;
+        font-weight: 300;
+        border-top-left-radius: 16px;
+    }
+    
+    .dia .faa {
+        background-color: #cccccc;
+        width: 140px;
+        height: 27px;
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 3px;
+        border-top-left-radius: 16px;
+        left: 150px;
+        top: 187px;
+        position: absolute;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        height: 65em;
+    }
+
+    .foot {
+        display: grid;
+        gap: 2em;
+        padding-right: 20em;
+    }
+
+    #divide {
+        display: none;
+    }
+}
+
+@media (max-width: 624px) {
+    .woods p {
+        padding-top: 0;
+        font-size: 13px;
+    }
+
+    .woods {
+        width: 90vw;
+    }
+} 
+
+@media (max-width: 546px) {
+    .woods p {
+        padding-top: 0;
+        font-size: 12px;
+    }
+
+} 
+
+@media (max-width: 551px) {
+    .container-5 {
+        width: 100%;
+        height: 577vh;
+    }
+} 
+ 
+@media screen and (max-width: 584px) {
+    .container-3 {
+        width: 100%;
+        height: 170vh;
+        display: grid;
+    }
+
+    .news {
+        width: 80vw;
+    }
+}
+ 
+
+@media (max-width: 378px) {
+    .container-5 {
+        width: 100%;
+        height: 702vh;
+    }
+} 
+
+@media (max-width: 348px) {
+    .container-5 {
+        width: 100%;
+        height: 737vh;
+    }
+
+    .board button {
+        width: 17em;
+        height: 20em;
+    }
+} 
