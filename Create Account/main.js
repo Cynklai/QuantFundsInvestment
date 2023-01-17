@@ -103,12 +103,17 @@ button.addEventListener("click", function validateForm () {
         errorcode5.style.fontSize = '14px';
     }
 
-    if (retype.value < 4 || retype.lenght < 6) {
+    if (retype.value != password.value && retype.value < 4) {
         retype.style.border = '1px solid red';
-        errorcode6.textContent = 'Please re-type your password';
+        errorcode6.textContent = 'Password do not match';
         errorcode6.style.color = 'red';
         errorcode6.style.fontSize = '14px'
-    } else {
+    } else if (retype.value == '') {
+        retype.style.border = '1px solid red';
+        errorcode6.textContent = 'Please confirm your password';
+        errorcode6.style.color = 'red';
+        errorcode6.style.fontSize = '14px'
+    }else {
         retype.style.border = '1px solid green';
         errorcode6.textContent = 'Coreect';
         errorcode6.style.color = 'green';
