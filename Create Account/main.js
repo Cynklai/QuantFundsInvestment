@@ -4,7 +4,6 @@ const password = document.getElementById('pmd');
 const button = document.getElementById('submit');
 const firstname = document.getElementById('fname');   
 const lastname = document.getElementById('lname');
-const age = document.getElementById('age');
 const email = document.getElementById('mail');
 const retype = document.getElementById('pwdd');
 const errorcode = document.getElementById('error');
@@ -14,13 +13,12 @@ const errorcode3 = document.getElementById('err');
 const errorcode4 = document.getElementById('eer');
 const errorcode5 = document.getElementById('ere');
 const errorcode6 = document.getElementById('errorr');
-const agerror = document.getElementById('eerr');
 const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
 
 
 button.addEventListener("click", function validateForm () {
-    if (username.value == ''|| username.lenght < 5) {
+    if (username.value == ''|| username.length < 5) {
       username.style.border = '1px solid red';
       errorcode.innerText = 'Username cannot be blank';
       errorcode.style.color = 'red';
