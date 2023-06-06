@@ -54,23 +54,6 @@ button.addEventListener("click", function validateForm () {
         errorcode2.style.fontSize = '14px'
     }
 
-    if (age.value == '') {
-        age.style.border = '1px solid red';
-        errorcode3.textContent = 'This Space cannot be blank';
-        errorcode3.style.color = 'red';
-        errorcode3.style.fontSize = '14px'
-    } else if (age.value == 18) {
-        age.style.border = '1px solid red';
-        agerror.textContent = 'You must be 18 or above';
-        agerror.style.color = 'red';
-        agerror.style.fontSize = '14px'
-    } else {
-        age.style.border = '1px solid green';
-        errorcode3.textContent = 'Correct';
-        errorcode3.style.color = 'green';
-        errorcode3.style.fontSize = '14px'
-    }
-
     if (email.value === '' ) {
         email.style.border = '1px solid red';
         errorcode4.textContent = 'Email cannot be blank';
@@ -89,7 +72,7 @@ button.addEventListener("click", function validateForm () {
     }
 
 
-    if (password.value < 4 || password.lenght < 6) {
+    if (password.value < 4 || password.length < 6) {
         password.style.border = '1px solid red';
         errorcode5.textContent = 'Password cannot be blank';
         errorcode5.style.color = 'red';
